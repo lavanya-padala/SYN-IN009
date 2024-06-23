@@ -6,7 +6,7 @@ public class Main {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
         if(n==0||n==1){
-            System.out.println(n+" is not a prime number");
+            System.out.println(n+" is not a prime number"); //0 and 1 are neither prime and composite numbers
             return;
         }
         else{
